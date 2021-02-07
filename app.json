@@ -1,0 +1,60 @@
+{
+    "name": "Accounts Generator Bot",
+    "description": "Python based bot to generate accounts.",
+    "logo": "",
+    "keywords": [
+        "telegram",
+        "telethon",
+        "telegram-bot"
+    ],
+    "repository": "https://github.com/xditya/AccountsGenBot",
+    "website": "xditya.me",
+    "success_url": "https://t.me/BotzHub",
+    "env": {
+        "API_HASH": {
+            "description": "Get this value from my.telegram.org! Please do not steal",
+            "value": ""
+        },
+        "APP_ID": {
+            "description": "Get this value from my.telegram.org! Please do not steal",
+            "value": ""
+        },
+        "BOT_TOKEN": {
+            "description": "Your Bot Token.",
+            "value": ""
+        },
+        "OWNER_ID": {
+            "description": "Bot Owner ID",
+            "value": ""
+        },
+        "ACCOUNTS": {
+            "description": "Raw Link to your accounts, read the ReadMe for more info.",
+            "value": ""
+        },
+        "CHANNEL": {
+            "description": "Channel link/@username for force join, leave for disabling force join.",
+            "value": ""
+        },
+        "START": {
+            "description": "Start message. Use {mention} to mention the other user.",
+            "value": ""
+        },
+        "ACC_NAME": {
+            "description": "Name of the account the bot generates",
+            "value": ""
+        },
+        "REDIS_URI": {
+            "description": "Redis Database URL, get it from redislabs.com. Read ReadMe for more info.",
+            "value": ""
+        },
+        "REDIS_PASSWORD": {
+            "description": "Redis Database Password, get it from redislabs.com. Read ReadMe for more info.",
+            "value": ""
+        }
+    },
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ]
+}

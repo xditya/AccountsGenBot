@@ -1,0 +1,4 @@
+python-decouple
+redis
+requests
+telethon
