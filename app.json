@@ -12,19 +12,19 @@
     "success_url": "https://t.me/BotzHub",
     "env": {
         "API_HASH": {
-            "description": "Get this value from my.telegram.org! Please do not steal",
+            "description": "You API HASH from my.telegram.org",
             "value": ""
         },
         "APP_ID": {
-            "description": "Get this value from my.telegram.org! Please do not steal",
+            "description": "You API ID from my.telegram.org",
             "value": ""
         },
         "BOT_TOKEN": {
-            "description": "Your Bot Token.",
+            "description": "Bot token, get it from @BotFather.",
             "value": ""
         },
         "OWNER_ID": {
-            "description": "Bot Owner ID",
+            "description": "Your Telegram UserID.",
             "value": ""
         },
         "ACCOUNTS": {
@@ -32,7 +32,7 @@
             "value": ""
         },
         "CHANNEL": {
-            "description": "Channel link/@username for force join, leave for disabling force join.",
+            "description": "Channel link/@username for force join, leave for disabling force join. The bot must be admin in that channel.",
             "value": ""
         },
         "START": {
