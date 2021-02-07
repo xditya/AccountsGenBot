@@ -30,5 +30,6 @@ async def _(event):
                             [Button.inline("Generate Accounts", data="gen")]
                         ])
     else:
-        await event.reply(f"{strt}\n\nOops! You need to join my channel so as to use me!", buttons=[Button.url("Join My Channel", url=ltc)])
+        st_msg = strt.format(mention=xxx.user.first_name)
+        await event.reply("{}\n\nOops! You need to join my channel so as to use me!".format(st_msg), buttons=[Button.url("Join My Channel", url=ltc)])
 
