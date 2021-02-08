@@ -22,7 +22,7 @@ Account Generator Bot, runs on python (telethon), with redis as database.
 You can deploy this bot anywhere.
 <details><summary>Heroku</summary>
 <p>
-<a href="https://heroku.com/deploy">
+<a href="https://heroku.com/deploy?template=https://github.com/xditya/AccountsGenBot">
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
 </a>
 </p>
