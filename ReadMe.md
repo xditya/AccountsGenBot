@@ -9,15 +9,15 @@ Account Generator Bot, runs on python (telethon), with redis as database.
  `REDIS_URI` and `REDIS_PASSWORD` - Get it from [RedisLabs](https://redislabs.com), tutorial [here](./extras/redisinfo).   
  `OWNER_ID` - Your telegram user id, get it by sending `/info` to some group management bot.   
  `ACCOUNTS` - Raw link to the accounts you need the users to generate. Tutorial [here](./extras/add_accounts.md).   
------------------
-
------------------
+-----------------   
+   
+-----------------   
 * Other vars -    
 `ACC_NAME` - Name of the account that the bot is to generate.   
 `CHANNEL` - Link/Username of your telegram group/channel. Leave empty for no force join.      
-`START` - Custom start message. Use {mention} in it to mention the user who is currently using the commands.
------------------
-
+`START` - Custom start message. Use {mention} in it to mention the user who is currently using the commands.   
+-----------------   
+   
 ## Deploying
 You can deploy this bot anywhere.
 <details><summary>Heroku</summary>
