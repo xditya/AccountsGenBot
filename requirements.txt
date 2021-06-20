@@ -1,4 +1,4 @@
 python-decouple
 redis
 requests
-telethon
+telethon==1.22.0
